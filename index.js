@@ -13,7 +13,7 @@ const selectingDrivers = function () {
   array = []
   array[0] = returnFirstTwoDrivers(),
   array[1] = returnLastTwoDrivers()
-  console.log(array[1]);
+  return array
 }
 
 function createFareMultiplier(multiplier) {
