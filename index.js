@@ -10,7 +10,7 @@ const returnLastTwoDrivers = function (array) {
 }
 
 const selectingDrivers = function (array) {
-  console.log(returnFirstTwoDrivers());
+  console.log(returnFirstTwoDrivers(array));
   const newarray = [returnFirstTwoDrivers(), returnLastTwoDrivers()]
   console.log(returnFirstTwoDrivers);
   return newarray
