@@ -14,6 +14,5 @@ const selectingDrivers = function (array) {
   return newarray
 }
 
-function createFareMultiplier(multiplier) {
-
+function createFareMultiplier(multiplier) { 
 }
