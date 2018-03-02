@@ -14,5 +14,8 @@ const selectingDrivers = function (array) {
   return newarray
 }
 
-function createFareMultiplier(multiplier) { 
+function createFareMultiplier(multiplier) {
+   return function (fare) {
+     return fare * multiplier
+   }
 }
