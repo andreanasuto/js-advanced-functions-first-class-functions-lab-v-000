@@ -10,7 +10,7 @@ const returnLastTwoDrivers = function (array) {
 }
 
 const selectingDrivers = function () {
-  return Arrow.from(returnFirstTwoDrivers, returnLastTwoDrivers)
+  return Array.of(returnFirstTwoDrivers, returnLastTwoDrivers)
 }
 
 function createFareMultiplier(multiplier) {
