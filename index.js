@@ -23,6 +23,6 @@ function createFareMultiplier(multiplier) {
 const fareDoubler = createFareMultiplier(2)
 const fareTripler = createFareMultiplier(3)
 
-function selectDifferentDrivers(arrayOfDrivers, puzzi ){
+function selectDifferentDrivers(arrayOfDrivers, function) {
    return function(arrayOfDrivers)
 }
